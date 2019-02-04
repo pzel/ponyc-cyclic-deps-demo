@@ -18,10 +18,10 @@ Their dependency graph is as follows:
 make compile-with-ponyc
 ```
 
-### Result
+#### Result
 Ponyc produces a running executable. 
 
-### Expected (postulated?) result:
+#### Expected (postulated?) result:
 
 I feel this should either error out or otherwise emit a warning that a
 circular dependecy has been detected, and where.
@@ -33,12 +33,12 @@ circular dependecy has been detected, and where.
 make compile-with-stable
 ```
 
-### Result
+#### Result
 
-On my machine (`Linux 4.19.16_3 #1 SMP PREEMPT x86_64 GNU/Linux1),
+On my machine (`Linux 4.19.16_3 #1 SMP PREEMPT x86_64 GNU/Linux`),
  this causes runaway growth of the memory used by the `stable` process.
  
-### Expected result
+#### Expected result
 
 I'd expect that the tooling would have detected a circular dependency
 either errored out with an informative message, or otherwise produced
