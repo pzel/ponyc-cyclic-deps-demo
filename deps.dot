@@ -1,0 +1,5 @@
+digraph deps {
+  pony_cyclic_deps -> foo;
+  foo -> bar;
+  bar -> foo;
+}
