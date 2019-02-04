@@ -41,8 +41,8 @@ On my machine (`Linux 4.19.16_3 #1 SMP PREEMPT x86_64 GNU/Linux`),
 #### Expected result
 
 I'd expect that the tooling would have detected a circular dependency
-either errored out with an informative message, or otherwise produced
-a warning (as above).
+and either errored out with an informative message, or produced
+an appropriate warning (as above).
 
 
 
